@@ -1,0 +1,41 @@
+.banner {
+  background: rgb(0, 0, 0, 0.8) url("gambar/monaco-city-cityscape-city-lights-purple-sky-sunset-long-3840x2400-3832.jpg") no-repeat center center;
+  background-size: cover;
+  background-blend-mode: darken;
+  height: 100vh;
+  padding-top: 12%;
+  padding-bottom: 20%;
+  color: #fff;
+}
+.navbar-dark .navbar-nav .nav-link {
+  font-size: 20px;
+  font-family: Verdana, Tahoma, sans-serif;
+}
+.carousel-caption {
+  background: rgba(0, 0, 0, 0.6);
+}
+.about {
+  background: rgb(0, 0, 0, 0.8) url("gambar/everton-vila-AsahNlC0VhQ-unsplash.jpg") no-repeat center center;
+  background-size: cover;
+  background-blend-mode: darken;
+}
+.portfolio {
+  background: rgb(0, 0, 0, 0.6) url("gambar/arwan-sutanto-tt9CML2XWyU-unsplash.jpg") no-repeat center center;
+  background-size: cover;
+  background-blend-mode: darken;
+}
+.pict {
+  background: rgb(0, 0, 0, 0.8) url("gambar/monaco-city-cityscape-city-lights-purple-sky-sunset-long-3840x2400-3832.jpg");
+  background-size: cover;
+  background-blend-mode: darken;
+}
+.kontak {
+  background: url("gambar/kontak.webp") no-repeat center center;
+  background-size: cover;
+}
+.card-img-top {
+  height: 200px;
+}
+.tinggi {
+  height: 450px;
+}
