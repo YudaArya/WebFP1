@@ -37,6 +37,20 @@ document.querySelector("#todo-form").addEventListener("submit", (e) => {
   const judul = document.querySelector("#judul").value;
   const tgl = document.querySelector("#tgl").value;
   const deskripsi = document.querySelector("#deskripsi").value;
+  let data = {
+    judul: judul,
+    tgl: tgl,
+    deskripsi: deskripsi,
+  };
+  let agendaArr = [];
+  if (!localStorage.getItem("data")) {
+    agendaArr.push(data);
+    localStorage.setItem("data", JSON.stringify(agendaArr));
+  } else {
+    agendaArr = JSON.parse(localStorage.getItem("data"));
+    agendaArr.push(data);
+    localStorage.setItem("data", JSON.stringify(agendaArr));
+  }
 
   // validasi
   if (judul == "" || tgl == "" || deskripsi == "") {
